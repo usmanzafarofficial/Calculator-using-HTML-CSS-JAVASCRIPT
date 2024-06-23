@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="calculator">
+        <input id="display" readonly >
+        <div id="keys">
+            <button class="operators-color" onclick="appendToDisplay('+')">+</button>
+            <button onclick="appendToDisplay('+')">7</button>
+            <button onclick="appendToDisplay('+')">8</button>
+            <button onclick="appendToDisplay('+')">9</button>
+            <button class="operators-color" onclick="appendToDisplay('+')">-</button>
+            <button onclick="appendToDisplay('+')">4</button>
+            <button onclick="appendToDisplay('+')">5</button>
+            <button onclick="appendToDisplay('+')">6</button>
+            <button class="operators-color" onclick="appendToDisplay('+')">*</button>
+            <button onclick="appendToDisplay('+')">1</button>
+            <button onclick="appendToDisplay('+')">2</button>
+            <button onclick="appendToDisplay('+')">3</button>
+            <button class="operators-color" onclick="appendToDisplay('+')">/</button>
+            <button onclick="appendToDisplay('+')">0</button>
+            <button onclick="appendToDisplay('.')">.</button>
+            <button onclick="calculate()">=</button>
+            <button class="operators-color" onclick="clearDisplay()">C</button>
+        </div>
+    </div>
+    
+</body>
+</html>
